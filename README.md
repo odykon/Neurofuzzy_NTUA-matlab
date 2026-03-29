@@ -1,7 +1,5 @@
 # Neuro-Fuzzy Control — Lab Code
-Konias Odysseas Georgios | 03119166
 
-MATLAB code from the three lab reports (2023-2024).
 
 ## Files
 
@@ -25,4 +23,3 @@ MATLAB code from the three lab reports (2023-2024).
 - Lab 2, Ex.1 requires the System Identification Toolbox and the `el_lo_des` dataset loaded in the workspace.
 - Lab 2, Ex.2 requires the Statistics and Machine Learning Toolbox.
 - Lab 3, Ex.1–2 require the Symbolic Math Toolbox.
-- The Fashion-MNIST classifier (Lab 3, Part 2, Ex.2) is Python/Keras and is not included here.
