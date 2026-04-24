@@ -3,7 +3,7 @@
 MATLAB implementations for the Neuro-Fuzzy Control course at the National Technical University of Athens (NTUA).  
 **Author:** Konias Odysseas Georgios — 03119166
 
-The three labs cover three aread of modern control: **fuzzy rule-based control**, **system identification & regression**, and **numerical optimisation for neural network training**.
+The three labs cover three areas of modern control: **fuzzy rule-based control**, **system identification & regression**, and **numerical optimisation for neural network training**.
 
 ---
 
