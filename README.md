@@ -5,7 +5,7 @@ MATLAB implementations for the Neuro-Fuzzy Control course at NTUA.
 
 ---
 
-## Lab 1 — Fuzzy Control & Lyapunov Stability
+## Lab 1 — Fuzzy Control & Lyapunov Stability (Non-Linear PD Control)
 
 **Ex.1:** Mamdani FIS to bring a train to rest at a station. Inputs are position and velocity; output is a throttle/brake signal. The controller is an instance of **nonlinear PD control** — position acts as the P term and velocity as the D term, with fuzzy rules encoding state-dependent gains. The lack of an I term is why a constant disturbance force requires explicit rule extensions. Requires Fuzzy Logic Toolbox + Simulink.
 
