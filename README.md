@@ -25,6 +25,7 @@ A Mamdani Fuzzy Inference System (FIS) is designed to bring a train to rest at a
 - **Membership functions:** trapezoidal and triangular MFs for regions `far`, `400m`, `close`, `very_close` (position) and `zero`, `very_slow`, `slow`, `good`, `fast` (velocity)  
 - **Closed-loop simulation:** runs inside a Simulink model (`train_sim.slx`) that implements the nonlinear train dynamics  
 - **Test scenarios:** varying reference speed (90 / 120 km/h), track length, mass (+10%), and external disturbance force
+- - **Relation to PID:** this fuzzy controller is an instance of **nonlinear PD control** — the position input acts as the proportional term and the velocity input acts as the derivative term, with the fuzzy rules encoding nonlinear, state-dependent "gains" in place of fixed linear coefficients. The absence of an integral term is why a constant disturbance force requires explicit new rules rather than being rejected automatically.
 
 ### Exercise 2 — Stability of a Switched Linear System
 
